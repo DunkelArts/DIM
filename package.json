@@ -1,0 +1,16 @@
+{
+  "name": "dim",
+  "version": "1.0.0",
+  "description": "DIM",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . dim --platform win32 --arch x64 --icon=resources/dim.ico --out dist/"
+  },
+  "author": "Tim Bissegger",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.1.2",
+    "electron-packager": "^15.0.0"
+  }
+}
