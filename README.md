@@ -1,14 +1,16 @@
 # Destiny 2 Inventory Manager - Desktop Version
 
-## Install
+---
 
-Just run the EXE to install locally.
+A Desktop Version of the Destiny 2 Inventory Manager + Fireteam Search
+
+## Download & Install
+
+[Download](https://github.com/DunkelArts/DIM/raw/master/DIM.exe) and run the Installer at own risk.
 
 ## Build yourself
 
 To develop you need to have Node.js installed
-
-[Get Node.js](https://nodejs.org/en/)
 
 ```bash
 # install all dependencies
@@ -20,6 +22,11 @@ npm start
 # create .exe
 npm run build
 ```
+
+## Frameworks
+
+- [Node.js](https://nodejs.org/en/)
+- [Electron.js](https://www.electronjs.org/)
 
 ---
 ## Copyright

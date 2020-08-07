@@ -23,9 +23,9 @@ DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
-OutputDir=C:\Temp
+OutputDir=C:\Temp\DIM
 OutputBaseFilename=DIM
-SetupIconFile=C:\Temp\resources\dim.ico
+SetupIconFile=C:\Temp\DIM\resources\dim.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -34,7 +34,7 @@ WizardStyle=modern
 Name: "german"; MessagesFile: "compiler:Languages\German.isl"
 
 [Files]
-Source: "C:\Temp\dist\dim-win32-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Temp\DIM\dist\dim-win32-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
